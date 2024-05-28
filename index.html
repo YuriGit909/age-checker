@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <div id="formulario">
+            <p>Ano de Nascimento: 
+                <input type="number" name="num" id="inum" min="1900" placeholder="Enter the year of birth">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="Verificar()">
+        </div>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por <a href="https://github.com/yurigit909">Yuri Barbosa</a>.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
